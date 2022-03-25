@@ -7,13 +7,7 @@
   width: 1146px;
   margin: 0 auto;
 }
-.container {
-  position: absolute;
-  top: 335px;
-  width: 50px;
-  left: 40px;
-  bottom: 0;
-}
+
 .Link {
   text-decoration: none;
 }

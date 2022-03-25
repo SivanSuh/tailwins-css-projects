@@ -2,17 +2,17 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className=" mx-auto flex border-2 rounded-lg mb-3 home w-10/12">
-      <div className="w-5/12 ">
+    <div className=" mx-auto lg:flex  block border-2 rounded-lg mb-3 home w-10/12">
+      <div className="lg:w-5/12 w-full">
         <img
-          className="rounded-l-lg h-full  md:justify-center "
+          className="rounded-l-lg h-full  w-full"
           src="https://ferhancihaner.com/uploads/pages/5ff204d6daada5fe407b8d158ahome-min.png"
           alt="home"
         />
       </div>
-      <div className="flex justify-center items-center w-7/12 ">
+      <div className="flex justify-center items-center lg:w-7/12 w-full ">
         <div className="flex flex-col justify-center w-10/12 my-4">
-          <div className="font-bold w-full" style={{ fontSize: "50px" }}>
+          <div className="font-bold w-full lg:text-5xl text-2xl">
             <h2>
               Merhaba
               <br />

@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="max-w-screen w-full d-flex justify-center items-center mt-20">
       <div className="bg-black mt-72 text-white">
         <div style={{ height: "110px" }} className="mx-auto">
-          <div className="mx-auto flex justify-between h-28 items-center w-10/12 ">
-            <div className="">
+          <div className="mx-auto flex justify-between h-28 items-center w-10/12">
+            <div>
               <img
                 style={{
                   width: "167.55px",
@@ -17,7 +17,7 @@ const Footer = () => {
                 alt="logo"
               />
             </div>
-            <div className="flex items-center space-x-4 font-bold ">
+            <div className="lg:flex items-center space-x-4 font-bold hidden ">
               <div>
                 <Link className="Link" to="/">
                   <h2>HAKKIMIZDA</h2>

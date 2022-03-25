@@ -20,7 +20,7 @@ function App() {
           <Route path="/yolculuk" element={<YolculugaBasla />} />
           <Route path="/foto" element={<Calısmalarımız />} />
         </Routes>
-        <div className="container">
+        <div className="md:absolute md:top-64 md:left-4 relative   bottom-0">
           <Routes>
             <Route path="/" element={<SocialMedia />} />
           </Routes>

@@ -5,21 +5,19 @@ const YolculugaBasla = () => {
   return (
     <div>
       <div className="bg-black  p-5 text-center ">
-        <h2 style={{ color: "white", fontSize: "50px" }}>Yolculuga Başla</h2>
+        <h2 style={{ color: "white" }} className="text-5xl">
+          Yolculuga Başla
+        </h2>
       </div>
       <form className="mx-auto mt-5 " style={{ width: "570px" }}>
-        <h2 style={{ fontSize: "35px" }} className="my-5 font-bold">
-          Adım 1
-        </h2>
+        <h2 className="my-5 font-bold text-4xl">Adım 1</h2>
         <div className=" mb-5">
-          <h2 style={{ fontSize: "25px" }} className="font-bold">
-            Kişisel Bilgiler
-          </h2>
-          <div className="flex my-5 justify-between">
+          <h2 className="font-bold text-2xl	">Kişisel Bilgiler</h2>
+          <div className="md:flex my-5  justify-between">
             <input
               type="text"
               placeholder="enter name"
-              className="border border-black p-2  "
+              className="border border-black p-2"
               style={{ width: "268px" }}
             />
             <input
@@ -45,9 +43,7 @@ const YolculugaBasla = () => {
           </div>
         </div>
         <div className="my-5">
-          <h2 style={{ fontSize: "25px" }} className="font-bold">
-            Hangi Ülkede Yaşıyorsunuz
-          </h2>
+          <h2 className="font-bold text-2xl	">Hangi Ülkede Yaşıyorsunuz</h2>
           <div className="flex mt-5">
             <select className="w-full border border-black p-2">
               <option></option>
@@ -55,7 +51,7 @@ const YolculugaBasla = () => {
           </div>
         </div>
         <div>
-          <h2 style={{ fontSize: "25px" }} className="font-bold">
+          <h2 className="font-bold text-2xl	">
             Daha Once Herbalife Kullandınız mı ?
           </h2>
           <div className="flex mt-5  ">
@@ -74,7 +70,7 @@ const YolculugaBasla = () => {
           </div>
         </div>
         <div className="mt-5 mb-5">
-          <h2 style={{ fontSize: "25px" }} className="font-bold">
+          <h2 className="font-bold text-2xl	">
             Daha Once Herbalife üyesi oldun mu ?
           </h2>
           <div className="flex mt-5  ">
@@ -93,9 +89,7 @@ const YolculugaBasla = () => {
           </div>
         </div>
         <div>
-          <h2 style={{ fontSize: "25px" }} className="font-bold">
-            İdeal vücut ölçün nedir?
-          </h2>
+          <h2 className="font-bold text-2xl	">İdeal vücut ölçün nedir?</h2>
           <div className="mt-3">
             <input
               type="text"
@@ -105,7 +99,7 @@ const YolculugaBasla = () => {
           </div>
         </div>
         <div className="mt-5">
-          <button className="w-full bg-black text-white p-2 text-bold">
+          <button className="w-full bg-black text-white p-2 text-bold hover:bg-sky-600">
             Gonder
           </button>
         </div>
