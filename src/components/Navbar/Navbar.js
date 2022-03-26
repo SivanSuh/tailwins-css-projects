@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { ImMenu } from "react-icons/im";
-const Navbar = () => {
+const Navbar = ({ toggleButton }) => {
   return (
     // <div style={{ height: "110px" }} className="mx-auto w-10/12">
     <div
@@ -16,7 +16,10 @@ const Navbar = () => {
           alt="logo"
         />
       </div>
-      <div className="px-4 cursor-pointer lg:hidden text-3xl	">
+      <div
+        className="px-4 cursor-pointer lg:hidden text-3xl z-20 text-red-600 "
+        onClick={toggleButton}
+      >
         <ImMenu />
       </div>
       <div className="font-bold  lg:flex hidden">
