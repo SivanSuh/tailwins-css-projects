@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="max-w-screen w-full d-flex justify-center items-center mt-20">
+    <div className="max-w-screen w-full d-flex justify-center items-center ">
       <div className="bg-black mt-72 text-white">
         <div style={{ height: "110px" }} className="mx-auto">
           <div className="mx-auto flex justify-between h-28 items-center w-10/12">

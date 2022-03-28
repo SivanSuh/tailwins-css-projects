@@ -18,7 +18,7 @@ const Navbar = ({ toggleButton }) => {
         </Link>
       </div>
       <div
-        className="px-4 cursor-pointer lg:hidden text-3xl z-20 text-red-600 "
+        className="px-4 cursor-pointer lg:hidden text-3xl"
         onClick={toggleButton}
       >
         <ImMenu />
