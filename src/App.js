@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import SocialMedia from "./components/SocialMedia/SocialMedia";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import YolculugaBasla from "./components/YolculugaBasla/YolculugaBasla";
 import Calısmalarımız from "./components/Calısmalarımız/Calısmalarımız";
 import DropDown from "./components/Navbar/DropDown";
+import Iletisim from "./components/Iletisim";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,15 +31,9 @@ function App() {
           <DropDown isOpen={isOpen} toggleButton={toggleButton} />
           <Routes>
             <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
-        <Routes>
-          <Route path="/yolculuk" element={<YolculugaBasla />} />
-          <Route path="/foto" element={<Calısmalarımız />} />
-        </Routes>
-        <div className="md:absolute md:top-64 md:left-4 relative   bottom-0">
-          <Routes>
-            <Route path="/" element={<SocialMedia />} />
+            <Route path="/yolculuk" element={<YolculugaBasla />} />
+            <Route path="/foto" element={<Calısmalarımız />} />
+            <Route path="/iletisim" element={<Iletisim />} />
           </Routes>
         </div>
       </div>
